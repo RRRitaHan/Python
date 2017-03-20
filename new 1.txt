@@ -1,0 +1,51 @@
+#练习2
+i = 0
+n = 0
+name = input('请输入你的姓名，以回车结束。')
+print('你好', name)
+num = int(input('请输入你想求和的整数的个数'))
+for i in range(num):
+    k = int(input())
+    n += k
+print('这些数的和是：', n)
+print('再见！', name)
+
+#练习3
+import sys
+i = 0
+a = dict()
+print("您可以输入“不想输入”来结束程序")
+while True:
+    a[i] = input()
+    if a[i] == '不想输入':
+        sys.exit(0)
+    i += 1
+
+#练习4
+import sys
+sum_1 = 0
+sum_2 = 1
+while True:
+    n = input()
+    n = int(n)
+    if (sum_1 < n) and (sum_2 < (n**2)) :
+        sys.exit(0)
+    sum_1 += n
+    sum_2 *= n
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+11
+1
+10000000000000
+An exception has occurred, use %tb to see the full traceback.
+
+SystemExit: 0
